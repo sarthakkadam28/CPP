@@ -124,11 +124,15 @@ int main(){
     Point p4;
                                                                                
 
-    t1.setpt1(p);
-    t1.setY(34);
+    t1.setPt1(p);
+    p4.setY(34);
+    t1.setPt1(p4);
     t1.getPt1();
     t1.getPt2();
     t1.getPt3();
+    Point p3;
+    p3.setX(0); // Initialize p3 with default values
+    p3.setY(0);
     cout<<p3.getX()<<","<<p3.getY()<<endl; 
 
 

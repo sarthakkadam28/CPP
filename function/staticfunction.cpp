@@ -6,7 +6,7 @@ namespace CRM
     class Customer
     {
     public:
-        static int count;
+        static int count; //
         int id;
         string fullName;
         string contactNumber;

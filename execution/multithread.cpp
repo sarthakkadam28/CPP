@@ -9,8 +9,7 @@
             this_thread::sleep_for(chrono::seconds(4));
         }
         
-   } <<"write anything "<<endl;
-   this_thread::sleep_for(chrono::seconds(4));
+   }
    void print_display(){
     while(true){
     cout<<"display anything"<<endl;

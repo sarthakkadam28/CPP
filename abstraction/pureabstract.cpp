@@ -5,6 +5,7 @@ class Shape{
     virtual double calculateArea()const=0;
     virtual double calculatePerimeter()const=0;
     
+    
 };
 class Circle:public Shape{
 private: 

@@ -3,15 +3,18 @@
  class Shape
  {
  public:
-     void virtual draw()=0;
+     void virtual draw(){
+        cout<<"draw a shape" << endl;
+     }
      
  };
  class Circle : public Shape
  {
  public:
      void draw() override
+
      {
- 
+        Shape::draw();
          cout << "draw a circle " << endl;
      }
  };

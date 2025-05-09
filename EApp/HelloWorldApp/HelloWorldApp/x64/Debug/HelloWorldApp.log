@@ -1,0 +1,21 @@
+﻿  Customer main .cpp
+  Customer.cpp
+  CustomerBinaryIOManger.cpp
+  CustomerBinaryIOManger.h
+  CustomerRepository.cpp
+  CustomersController.cpp
+  CustomerService.cpp
+  ProductBinaryIOManger.cpp
+  ProductCSVIOManager.cpp
+  ProductJSONIOManager.cpp
+  ProductTextIOManager.cpp
+  ProductsController.cpp
+  Main.cpp
+  Product.cpp
+  ProductRepository.cpp
+  ProductService.cpp
+  CustomerUIManager.cpp
+  ProductUIManager.cpp
+  Generating Code...
+HelloWorldApp\x64\Debug\CustomerBinaryIOManger.obj : warning LNK4042: object specified more than once; extras ignored
+  HelloWorldApp.vcxproj -> D:\TAP\TFLCPP\Solutions\CPP\Daywisebreakup\April\29_4_25\HelloWorldApp\x64\Debug\HelloWorldApp.exe

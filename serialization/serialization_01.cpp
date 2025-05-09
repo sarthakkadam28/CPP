@@ -6,7 +6,7 @@ using namespace std;
 class Account
 {  
 private:
-        double balance ;
+        double balance;
         int id;
         string holderName;
 public:

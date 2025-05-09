@@ -15,7 +15,7 @@ inline int Rectangle::getArea() const {
     return width * height;
 }
 
-int main() {
+int main() {                           
     Rectangle rect(5, 10);
     std::cout << rect.getArea() << std::endl; // No function call overhead
 }

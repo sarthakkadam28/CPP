@@ -22,7 +22,7 @@ void ProductJSONIOManager::saveProducts( const std::vector<Product>& products) {
 	std::ofstream file(filename);
 	if (!file.is_open()) {
 		std::cerr << "Error opening file for writing: " << filename << std::endl;
-		return;
+		return; 
 	}
 	// Write the products to the file
 	for (const auto& product : products) {

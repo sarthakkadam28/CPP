@@ -17,7 +17,11 @@ int (*ptrfn) (int, int);
 int main (){
    
     ptrfn=mult;
-    int result=ptrfn(87,56);  
-                              
+    ptrfn=add;
+    int result=ptrfn(87,56);
+    int result2 =ptrfn(34,85);  
+        
     cout<<"Result ="<<result<<endl;
+    cout<<"result ="<<result2<<endl;
+    
 }

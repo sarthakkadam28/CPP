@@ -32,3 +32,4 @@ int main()
     shape1->draw();
     shape2->draw();
 }
+
